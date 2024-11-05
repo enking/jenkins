@@ -1,5 +1,5 @@
 #OpenJDK 17 버전의 이미지를 가져와 JVM 환경을 구축한다.
-FROM openjdk:17-alpine
+FROM openjdk:17
 
 #현재 디렉토리 내의 모든 파일과 폴더를 컨테이너의 /app 디렉토리로 복사한다.
 WORKDIR /app
